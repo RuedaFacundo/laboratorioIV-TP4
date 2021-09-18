@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="baseStyle.css">
+    <title>Trabajo Practico 4.1</title>
+</head>
+<body>
+    <h5>Practico Nro 4.1</h5>
+    <form action="action.php" method="POST">
+        <div class="divbuttom">
+            <strong class="subtitle">Saludando</strong>
+        </div>
+        <div class="divbuttom">
+            <strong class="subtitle">Seleccione un idioma</strong> 
+            <input type="radio" name="idioma" value="Argentino"> Argentino
+            <input type="radio" name="idioma" value="Ingles"> Ingles
+            <input type="radio" name="idioma" value="Portugues"> Portugues
+        </div>
+        <div class="divbuttom">
+            <strong class="subtitle">Seleccione una accion</strong> 
+            <input type="radio" name="accion" value="saludar"> Saludar
+            <input type="radio" name="accion" value="despedirse"> Despedirse
+            <input type="radio" name="accion" value="otroMensaje"> Otro Mensaje
+            <textarea name="text" cols="35" rows="6" placeholder="Mensaje | Message | Mensagem"></textarea>
+        </div>
+        <div class="divbuttom">
+            <button type="submit">Procesar</button>
+        </div>
+        </div>
+
+    </form>
+</body>
+</html>
